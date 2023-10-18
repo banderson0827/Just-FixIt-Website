@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-# Just-FixIt-Website
-MERN stack website for Just FixIt of SWFL
-=======
-<<<<<<< HEAD
-# Just-FixIt-Website
-MERN stack website for Just FixIt of SWFL
-=======
+# Just Fix It Website
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
