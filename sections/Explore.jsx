@@ -1,7 +1,6 @@
 'use client';
 
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ImageCarousel from '../components/Carousel';
 
@@ -10,9 +9,14 @@ import { slideIn, staggerContainer } from '../utils/motion';
 import { TitleText, TypingText } from '../components';
 
 const images = [
-  '/random-1.jpg',
-  '/random-2.jpg',
-  '/random-3.jpg',
+  '/gallery2.jpeg',
+  '/gallery3.jpeg',
+  '/gallery4.jpeg',
+  '/gallery5.jpeg',
+  '/gallery6.jpeg',
+  '/gallery7.jpeg',
+  '/gallery9.jpeg',
+  '/gallery10.jpeg',
 ];
 
 const Explore = () => (

@@ -8,7 +8,7 @@ import { StartSteps, TitleText, TypingText } from '../components';
 import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="get-started">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -21,7 +21,7 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/get-started.png"
+          src="/modern-home.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

@@ -26,10 +26,33 @@ export const exploreWorlds = [
   },
 ];
 
+export const navLinks = [
+  {
+    id: 'home',
+    title: 'Home',
+  },
+  {
+    id: 'get-started',
+    title: 'Get Started',
+  },
+  {
+    id: 'about',
+    title: 'About',
+  },
+  {
+    id: 'explore',
+    title: 'Gallery',
+  },
+  {
+    id: 'contact',
+    title: 'Contact',
+  },
+];
+
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Check out the "About" section to learn more about us.',
+  'View the "Gallery" to see our work for yourself.',
+  'Go to "Contact" to submit a free estimate request and get your project started!',
 ];
 
 export const newFeatures = [
@@ -72,17 +95,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    ref: 'https://twitter.com/',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    ref: 'https://www.linkedin.com/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    ref: 'https://www.instagram.com/',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    ref: 'https://www.facebook.com/',
   },
 ];

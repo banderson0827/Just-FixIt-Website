@@ -6,7 +6,7 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:p1-16 p1-6`}>
+  <section className={`${styles.yPaddings} sm:p1-16 p1-6 mt-48 px-10`} id="home">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -23,7 +23,7 @@ const Hero = () => (
         </motion.h1>
         <motion.h2
           variants={textVariant(1.4)}
-          className="font-extrabold text-[32px] leading-[50px] text-white text-center"
+          className="font-extrabold text-[32px] leading-[50px] text-white text-center mb-10"
         >
           We fix it all!
         </motion.h2>
@@ -41,11 +41,11 @@ const Hero = () => (
         />
 
         <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
+          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[40px] pr-[40px] relative z-10">
             <img
-              src="/stamp.png"
+              src="/explore-stamp.png"
               alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain rounded-full"
             />
           </div>
         </a>
