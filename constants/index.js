@@ -93,23 +93,8 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
-    ref: 'https://twitter.com/',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    ref: 'https://www.linkedin.com/',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-    ref: 'https://www.instagram.com/',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-    ref: 'https://www.facebook.com/',
+    name: 'bbb',
+    url: '/bbb.png',
+    ref: 'https://www.bbb.org/us/fl/fort-myers/profile/floor-installation/just-fix-it-of-swfl-inc-0653-90201343',
   },
 ];
