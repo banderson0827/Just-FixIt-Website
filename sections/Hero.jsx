@@ -14,6 +14,15 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
+      <div className="flex justify-end items-center relative object-contain">
+        <a href="https://www.bbb.org/us/fl/fort-myers/profile/floor-installation/just-fix-it-of-swfl-inc-0653-90201343/#sealclick" target="_blank" rel="nofollow">
+          <img
+            src="https://seal-westflorida.bbb.org/seals/gray-seal-250-52-whitetxt-bbb-90201343.png"
+            className="border-0"
+            alt="Just Fix It of SWFL, Inc. BBB Business Review"
+          />
+        </a>
+      </div>
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1
           variants={textVariant(1.1)}
@@ -35,8 +44,8 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
         <img
-          src="/cover.png"
-          alt="hero_cover"
+          src="/hero-temp.jpeg"
+          alt="hero cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 

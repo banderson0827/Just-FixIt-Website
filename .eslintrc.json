@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "plugin:@next/next/recommended",
+  "rules": {
+    "arrow-body-style": "off",
+    "react/jsx-boolean-value": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "no-trailing-spaces": "off"
+  }
 }

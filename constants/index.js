@@ -1,3 +1,5 @@
+'use client';
+
 export const exploreWorlds = [
   {
     id: 'world-1',

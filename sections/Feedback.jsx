@@ -29,7 +29,7 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-          "Brad's statement goes here!"
+          Our goal is to build strong client relationships, ensuring your unique vision comes to life, on time and within budget.Thank you for considering Just Fix It of SWFL. We look forward to creating something truly exceptional with you!
         </p>
       </motion.div>
 
@@ -38,8 +38,8 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
-          alt="planet-09"
+          src="/feedback-temp.jpeg"
+          alt="upgraded bathroom"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
       </motion.div>

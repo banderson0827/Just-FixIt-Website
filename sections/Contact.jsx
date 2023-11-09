@@ -28,16 +28,16 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_8m0aian',
-      'template_b060s2s',
+      'service_5fq28e4',
+      'template_r6xe2si',
       {
         from_name: form.name,
         to_name: 'Brad Johnson',
         from_email: form.email,
-        to_email: 'banderson0827@hotmail.com',
+        to_email: 'brad@justfixitofswfl.com',
         message: form.message,
       },
-      'zWwyoydQ6vLgpUMpn',
+      'NMlq6imWrYH2oszGg',
     )
       .then(() => {
         setLoading(false);

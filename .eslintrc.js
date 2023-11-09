@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'plugin:@next/next/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -18,6 +19,10 @@ module.exports = {
     'react',
   ],
   rules: {
+    'no-trailing-spaces': 'off',
+    'jsx-a11y/img-redundant-alt': 'off',
+    'react/jsx-boolean-value': 'off',
+    'arrow-body-style': 'off',
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,

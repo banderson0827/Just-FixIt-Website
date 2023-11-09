@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'next/link';
 
 import styles from '../styles';
 import { navLinks } from '../constants';
@@ -11,20 +11,22 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
+  if (typeof window !== 'undefined') {
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        if (scrollTop > 100) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      };
 
-    window.addEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+  }
 
   return (
     <nav
@@ -32,7 +34,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          href="/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive('');
