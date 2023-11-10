@@ -5,7 +5,7 @@ import { About, Explore, Feedback, GetStarted, Hero } from '../sections';
 import Contact from '../sections/Contact.jsx';
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-slate-700 overflow-hidden">
     <Navbar />
     <Hero />
     <div className="relative">
