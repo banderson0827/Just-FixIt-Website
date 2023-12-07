@@ -24,13 +24,13 @@ const About = () => (
         <span className="font-extrabold text-white">Just Fix It of SWFL </span>
         is a
         <span className="font-extrabold text-white"> family owned</span>
-        , residential remodeling company dedicated to transforming your home into the
+        , licensed and insured General Contractor dedicated to transforming your home or business into the
         <span className="font-extrabold text-white"> space of your dreams</span>
         . Our team of experienced professionals is committed to providing
         <span className="font-extrabold text-white"> high-quality workmanship </span>
         and exceptional customer service to ensure your
         <span className="font-extrabold text-white"> complete satisfaction</span>
-        . Whether you're looking to update your kitchen, remodel your bathroom, or create a custom living space, our team has the expertise to
+        . Whether you're looking to update your kitchen, remodel your bathroom, or create a custom space for your business, our team has the expertise to
         <span className="font-extrabold text-white"> bring your vision to life</span>
         . We understand that every project is unique, and we work closely with our clients to create
         <span className="font-extrabold text-white"> customized solutions </span>
@@ -38,7 +38,7 @@ const About = () => (
         <span className="font-extrabold text-white"> attention to detail </span>
         and commitment to excellence. We use only the
         <span className="font-extrabold text-white"> highest quality materials </span>
-        and work with trusted suppliers and subcontractors to ensure that every project is completed to the highest standards. Thank you for considering Just FixIt of SWFL for your residential remodeling needs. We look forward to working with you and
+        and work with trusted suppliers and contractors to ensure that every project is completed to the highest standards. Thank you for considering Just FixIt of SWFL for your next project. We look forward to working with you and
         <span className="font-extrabold text-white"> making your vision reality</span>
         !
       </motion.p>

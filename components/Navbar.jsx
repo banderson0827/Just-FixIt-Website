@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="/just-fix-it-logo.jpg" alt="logo" className="w-9 h-9 rounded-md object-contain" />
+          <img src="/title-logo.png" alt="logo" className="w-9 h-9 rounded-md object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Just Fix It &nbsp;
             <span className="sm:block hidden">of SWFL</span>
