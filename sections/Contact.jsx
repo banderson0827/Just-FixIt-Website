@@ -1,5 +1,6 @@
 'use client';
 
+import ReCAPTCHA from 'react-google-recaptcha';
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -16,6 +17,7 @@ const Contact = () => {
     message: '',
   });
   const [loading, setLoading] = useState(false);
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +27,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!recaptchaValue) {
+      alert('Please complete the reCAPTCHA verification.');
+      return;
+    }
+
     setLoading(true);
 
     emailjs.send(
@@ -53,6 +61,10 @@ const Contact = () => {
         console.log(error);
         alert('Something went wrong. Please try again.');
       });
+  };
+
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaValue(value);
   };
 
   return (
@@ -104,6 +116,8 @@ const Contact = () => {
               className="bg-slate-700 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
+
+          <ReCAPTCHA sitekey="6LdyXVwpAAAAAOoP_RWXk0vxFt4gpLu3j70Ympys" onChange={handleRecaptchaChange} />
 
           <button
             type="submit"
