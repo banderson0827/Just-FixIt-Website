@@ -25,11 +25,14 @@ const Hero = () => (
           </p>
         </div>
         <div className="flex items-center relative object-contain z-20">
-          <a href="https://www.bbb.org/us/fl/fort-myers/profile/floor-installation/just-fix-it-of-swfl-inc-0653-90201343/#sealclick" target="_blank" rel="nofollow">
-            <img
-            src="https://seal-westflorida.bbb.org/seals/gray-seal-250-52-whitetxt-bbb-90201343.png"
-            className="border-0"
-            alt="Just Fix It of SWFL, Inc. BBB Business Review"
+          <a href="https://www.bbb.org/us/fl/fort-myers/profile/floor-installation/just-fix-it-of-swfl-inc-0653-90201343" target="_blank" rel="noreferrer">
+            <Image
+              src="/bbb.png"
+              alt="Just Fix It of SWFL, Inc. BBB Accreditation"
+              width={144}
+              height={96}
+              quality={100}
+              className="border-0"
             />
           </a>
         </div>
